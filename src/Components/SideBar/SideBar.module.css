@@ -1,0 +1,33 @@
+.sidebarContainer {
+    background-color: var(--primary-main);
+
+    &:hover {
+        background-color: var(--primary-bg);
+    }
+}
+
+.logo {
+    height: 42px;
+    width: 42px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.newChatText {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-primary);
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.buttonContainer {
+    padding: 16px;
+
+    @media (min-width: 768px) {
+        padding: 24px;
+    }
+}
