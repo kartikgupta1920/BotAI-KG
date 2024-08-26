@@ -1,0 +1,61 @@
+.container {
+    flex-shrink: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.inputField {
+    flex: 1;
+    background-color: var(--mui-palette-primary-light);
+    border-radius: 0.25rem;
+}
+
+.input {
+    font-size: 0.75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.button {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .stack {
+        gap: 2rem;
+    }
+
+    .input {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .button {
+        font-size: 1rem;
+    }
+
+    .smallButton {
+        min-width: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}

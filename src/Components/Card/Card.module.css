@@ -1,0 +1,44 @@
+.cardContainer {
+    background-color: var(--mui-primary-light);
+    padding: 1.2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background 200ms ease;
+}
+
+.cardContainer:hover {
+    background-color: var(--mui-primary-bglight);
+}
+
+.cardHeading {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardSubtext {
+    color: var(--mui-text-secondary);
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .cardContainer {
+        padding: 3rem;
+    }
+
+    .cardHeading {
+        font-size: 20px;
+    }
+
+    .cardSubtext {
+        font-size: 16px;
+    }
+}
+
+.cardContainer:hover .MuiIconButton-root {
+    opacity: 1;
+}

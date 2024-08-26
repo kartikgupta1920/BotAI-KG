@@ -1,0 +1,99 @@
+.card {
+    padding: 0.5rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: var(--mui-palette-primary-light);
+    transition: opacity 400ms ease;
+}
+
+.cardHover {
+    opacity: 1;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.heading {
+    font-size: 0.875rem;
+}
+
+.text {
+    font-size: 0.75rem;
+}
+
+.time {
+    font-size: 0.5rem;
+    color: var(--mui-palette-text-secondary);
+}
+
+.feedbackBtns {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 400ms ease;
+}
+
+.hiddenFeedbackBtns {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.ratingContainer {
+    padding-top: 0.5rem;
+}
+
+.legend {
+    font-size: 0.625rem;
+    margin-bottom: 0.125rem;
+}
+
+.feedbackText {
+    padding-top: 0.25rem;
+    font-size: 0.625rem;
+}
+
+.feedbackLabel {
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding: 1.5rem;
+        gap: 1.5rem;
+        background-color: var(--mui-palette-primary-main);
+    }
+
+    .image {
+        height: 68px;
+        width: 68px;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .time {
+        font-size: 0.75rem;
+    }
+
+    .ratingContainer {
+        padding-top: 1rem;
+    }
+
+    .legend {
+        font-size: 0.75rem;
+    }
+
+    .feedbackText {
+        font-size: 1rem;
+    }
+}
