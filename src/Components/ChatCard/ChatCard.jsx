@@ -4,8 +4,8 @@ import { format } from "date-fns";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import ThumbDownOffAltIcon from "@mui/icons-material/ThumbDownOffAlt";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
-import ai from "../../assets/logo.png";
-import person from "../../assets/person.png";
+import ai from "../../Assets/logo.png";
+import person from "../../Assets/person.png";
 import styles from "./ChatCard.module.css"; 
 
 const ChatCard = ({

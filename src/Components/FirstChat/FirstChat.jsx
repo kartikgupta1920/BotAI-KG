@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Grid, Stack, Typography } from "@mui/material";
-import logo from "../../assets/logo.png";
+import logo from "../../Assets/logo.png";
 import Card from "../Card/Card";
 import styles from "./FirstChat.module.css"; 
 

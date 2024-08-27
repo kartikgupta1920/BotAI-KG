@@ -11,10 +11,12 @@
 }
 
 .title {
+    text-align: left;
     font-size: 24px;
 }
 
 .modeText {
+    text-align: right;
     text-transform: capitalize;
     font-size: 10px;
 }

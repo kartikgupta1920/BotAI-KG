@@ -1,0 +1,46 @@
+container {
+    background: linear-gradient(rgba(215, 199, 244, 0.2), rgba(151, 133, 186, 0.2));
+  }
+  
+  sidebar {
+    background-color: var(--mui-palette-primary-light);
+  }
+  
+  mobileSidebar {
+    width: 70%;
+    transform: translateX(-100%);
+    transition: transform 400ms ease;
+  }
+  
+  mobileSidebarOpen {
+    transform: translateX(0);
+  }
+  
+  fixedPosition {
+    position: fixed;
+  }
+  
+  relativePosition {
+    position: relative;
+  }
+  
+  fullHeight {
+    height: 100vh;
+  }
+  
+  highZIndex {
+    z-index: 9999;
+  }
+  
+  defaultZIndex {
+    z-index: 1;
+  }
+  
+  boxShadow {
+    box-shadow: var(--mui-shadow-10);
+  }
+  
+  noBoxShadow {
+    box-shadow: none;
+  }
+  

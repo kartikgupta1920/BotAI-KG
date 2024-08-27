@@ -1,8 +1,8 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import edit from "../../assets/EditIcon.png";
-import logo from "../../assets/logo.png";
-import styles from "./Sidebar.module.css"; // Import the CSS module
+import edit from "../../Assets/EditIcon.png";
+import logo from "../../Assets/logo.png";
+import styles from "./SideBar.module.css"; 
 
 const Sidebar = ({ setChat, closeMenu }) => {
   return (
